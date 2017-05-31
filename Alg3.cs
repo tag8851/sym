@@ -12,7 +12,7 @@ namespace sym
     /// </summary>
     public class Alg3 : Alg
     {
-        private StreamWriter writer = new StreamWriter("out.txt");
+        private StreamWriter writer = new StreamWriter("alg3.txt");
         public override void Init()
         {
             Stock.Limit = 3000;

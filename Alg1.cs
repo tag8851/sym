@@ -26,7 +26,7 @@ namespace sym
             this.IsDetail = true;
 
             Params = new Alg1ParamContext[] {
-                new Alg1ParamContext {Side = eSide.Buy, Len = 10, Diff = -0.1, TP = 0.05, ST = 0.05},
+                new Alg1ParamContext {Side = eSide.Sell, Len = 125, Diff = 0.5, TP = 0.05, ST = 0.05},
                 //new Alg1ParamContext {Side = eSide.Buy, Len = 25, Diff = -0.1, TP = 0.05, ST = 0.05},
                 //new Alg1ParamContext {Side = eSide.Buy, Len = 10, Diff = -0.2, TP = 0.05, ST = 0.05},
                 //new Alg1ParamContext {Side = eSide.Buy, Len = 25, Diff = -0.2, TP = 0.05, ST = 0.05},
